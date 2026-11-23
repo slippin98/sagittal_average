@@ -1,0 +1,14 @@
+%%writefile greetings_repo/pyproject.toml
+
+[build-system] 
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "saggital average"
+version = "0.0.1"
+
+[tool.hatch.build.targets.wheel]
+packages = [
+  "src/sagittal_average",
+]
