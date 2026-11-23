@@ -7,6 +7,9 @@ build-backend = "hatchling.build"
 [project]
 name = "saggital average"
 version = "0.0.1"
+dependencies = [
+    "numpy",
+]
 
 [tool.hatch.build.targets.wheel]
 packages = [
